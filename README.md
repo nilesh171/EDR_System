@@ -128,3 +128,26 @@ Alerts include **evidence**, making them explainable and SOC-friendly.
 ### 2️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
+
+## 🚀 Future Improvements
+
+Planned enhancements to evolve this project toward a full enterprise-grade EDR platform:
+
+- 🔍 **Parent–child process correlation**  
+  Detect suspicious execution chains by analyzing relationships between parent and child processes.
+
+- 🌐 **Network telemetry collection**  
+  Monitor outbound/inbound connections to identify data exfiltration, command-and-control traffic, and lateral movement.
+
+- 📊 **Web-based dashboard (React)**  
+  Build an interactive SOC dashboard for real-time visibility into endpoints, alerts, timelines, and investigation workflows.
+
+- 📧 **SMTP-based direct alert notifications**  
+  Integrate SMTP email alerts to notify SOC analysts instantly when high-severity threats are detected, enabling faster response.
+
+- 🤖 **ML-based anomaly detection**  
+  Apply machine learning models to identify abnormal behavior patterns beyond rule-based detection.
+
+- ☁️ **Secure cloud deployment**  
+  Deploy the EDR backend on the cloud using HTTPS, authentication tokens, and role-based access control for secure multi-endpoint monitoring.
+
