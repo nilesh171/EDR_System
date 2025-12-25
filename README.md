@@ -61,15 +61,6 @@ This project demonstrates how **modern EDR systems detect threats based on behav
 
 ---
 
-## 🏗️ Architecture
-
-```mermaid
-graph TD
-    A[Windows Endpoint] -->|Process Telemetry| B[FastAPI Server]
-    B -->|Detection Engine| C[MongoDB]
-    C --> D[telemetry<br>(raw endpoint data)]
-    C --> E[alerts<br>(SOC-ready alerts)]
-```
 
 **Design Principle:**  
 > *Endpoints collect data → Server analyzes → Humans decide*
@@ -89,20 +80,6 @@ graph TD
 
 ---
 
-## 📁 Project Structure
-
-Windows-EDR/
-│
-├── agent/
-│ └── agent.py # Windows endpoint agent
-│
-├── server/
-│ ├── main.py # API server & alert pipeline
-│ └── detection.py # Detection engine
-│
-├── requirements.txt
-├── .gitignore
-└── README.md
 
 
 ---
