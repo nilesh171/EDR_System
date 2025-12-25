@@ -63,18 +63,12 @@ This project demonstrates how **modern EDR systems detect threats based on behav
 
 ## 🏗️ Architecture
 
-Windows Endpoint
-│
-│ Process Telemetry (HTTP/HTTPS)
-▼
-FastAPI Server
-│
-│ Detection Engine
-▼
-MongoDB
-│
-├── telemetry (raw endpoint data)
-└── alerts (SOC-ready alerts)
+```mermaid
+graph TD
+    A[Windows Endpoint] -->|Process Telemetry| B[FastAPI Server]
+    B -->|Detection Engine| C[MongoDB]
+    C --> D[telemetry<br>(raw endpoint data)]
+    C --> E[alerts<br>(SOC-ready alerts)]
 
 
 **Design Principle:**  
