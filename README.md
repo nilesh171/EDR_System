@@ -118,18 +118,6 @@ Alerts include **evidence**, making them explainable and SOC-friendly.
 
 ---
 
-## 🛠️ Installation & Setup
-
-### 1️⃣ Prerequisites
-- Python 3.9+
-- MongoDB (local or MongoDB Atlas)
-- Git
-
-### 2️⃣ Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
 ## 🚀 Future Improvements
 
 Planned enhancements to evolve this project toward a full enterprise-grade EDR platform:
