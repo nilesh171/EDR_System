@@ -69,7 +69,7 @@ graph TD
     B -->|Detection Engine| C[MongoDB]
     C --> D[telemetry<br>(raw endpoint data)]
     C --> E[alerts<br>(SOC-ready alerts)]
-
+```
 
 **Design Principle:**  
 > *Endpoints collect data → Server analyzes → Humans decide*
