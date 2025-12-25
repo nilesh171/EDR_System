@@ -128,6 +128,7 @@ Alerts include **evidence**, making them explainable and SOC-friendly.
 ### 2️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
+```
 
 ## 🚀 Future Improvements
 
